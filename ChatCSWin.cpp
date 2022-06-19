@@ -25,7 +25,7 @@ WCHAR szTitle[MAX_LOADSTRING];                  // Texto de la barra de título
 WCHAR szWindowClass[MAX_LOADSTRING];            // nombre de clase de la ventana principal
 
 //IP Y USUARIO
-char szMiIP[17] = "192.168.1.73";
+char szMiIP[17] = "127.0.0.1";
 char szUsuario[32] = "Windows";
 
 DWORD WINAPI Servidor(LPVOID argumento);
